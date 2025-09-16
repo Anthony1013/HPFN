@@ -1,6 +1,6 @@
 
 """
-* @name: hpf_blocks.py
+* @name: hpfn_blocks.py
 * @description: Functions of ProjMLP / MonoCNN / interleave / resize_to_length / CoMambaPair, et al。
 """
 

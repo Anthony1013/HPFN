@@ -1,5 +1,5 @@
 base:
-  project_name: ALMT_Demo
+  project_name: HPFN
   ckpt_root: ./ckpt
   seed: 7
   lr: 0.0001

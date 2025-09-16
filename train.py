@@ -5,7 +5,7 @@ from core.dataset import MMDataLoader
 from core.scheduler import get_scheduler
 from core.utils import AverageMeter, setup_seed, results_recorder, dict_to_namespace
 from tensorboardX import SummaryWriter
-from models.hpf import build_model
+from models.hpfn import build_model
 
 from core.metric import MetricsTop
 import yaml

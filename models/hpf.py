@@ -1,18 +1,18 @@
 
 """
-* @name: hpf.py
-* @description: HPF model.
+* @name: hpfn.py
+* @description: HPFN model.
 """
 
 import torch
 from torch import nn
 from .bert import BertTextEncoder
-from .hpf_blocks import ProjMLP, MonoCNN, interleave, CoMambaPair, Transformer
+from .hpfn_blocks import ProjMLP, MonoCNN, interleave, CoMambaPair, Transformer
 
 
 def _req(ns, key):
     if not hasattr(ns, key):
-        raise ValueError(f"[HPF] wrong：model.{key}")
+        raise ValueError(f"[HPFN] wrong：model.{key}")
     return getattr(ns, key)
 
 
@@ -150,4 +150,4 @@ class HPF(nn.Module):
 
 
 def build_model(args):
-    return HPF(args)
+    return HPFN(args)
