@@ -14,7 +14,7 @@ Codebase for our paper:
 ---
 
 ## 🚀 Training & Evaluation
-- Data preprocessing steps and experimental pipelines are consistent with **LNLN**.  
+- Data preprocessing steps and experimental pipelines are consistent with **ALMT**.  
 - Training and evaluation scripts are provided in this repository for reproducibility.  
 
 ---
