@@ -1,7 +1,7 @@
-# Hybrid Progressive Interaction for Multimodal Sentiment Analysis
+# Hybrid Progressive Fusion Network for Multimodal Sentiment Analysis
 
 Codebase for our paper:  
-**Hybrid Progressive Interaction for Multimodal Sentiment Analysis**
+**Hybrid Progressive Fusion Network for Multimodal Sentiment Analysis**
 
 ---
 
